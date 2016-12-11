@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LLforDuaTextItems"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvArabictext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listSidesPadding"
+        android:layout_marginRight="@dimen/listSidesPadding"
+        android:paddingBottom="@dimen/listBottomPadding"
+        android:paddingTop="@dimen/listTopPadding"
+        android:text="Arabic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvTamiltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listSidesPadding"
+        android:layout_marginRight="@dimen/listSidesPadding"
+        android:paddingBottom="@dimen/listBottomPadding"
+        android:text="tamil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvReference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listSidesPadding"
+        android:layout_marginRight="@dimen/listSidesPadding"
+        android:paddingBottom="@dimen/listBottomPadding"
+        android:paddingTop="@dimen/listTopPadding"
+        android:text="Reference_hidden" />
+
+    <View
+        android:id="@+id/dividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/tvArabictext"
+        android:background="@color/cardview_dark_background" />
+
+</LinearLayout>
