@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ListView lvMain;
     RecyclerView.LayoutManager layoutManager;
 
-
-    public static String[] MAINLISTITEMS={"Introduction","Quran Dua","Hadith Dua"};
+    public static String[] MAINLISTITEMS = {"Introduction", "Quran Dua", "Hadith Dua", "Settings"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         openMethod();
         tableInsertCheck();
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,MAINLISTITEMS);
-        lvMain=(ListView) findViewById(R.id.lvMainActivity);
+        ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, MAINLISTITEMS);
+        lvMain = (ListView) findViewById(R.id.lvMainActivity);
         lvMain.setAdapter(adapter);
         lvMain.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -68,22 +67,22 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void listItemClick(int itemSelected){
+    public void listItemClick(int itemSelected) {
 
-        if(itemSelected==0){
-            Intent intent= new Intent(this,Introduction.class);
+        if (itemSelected == 0) {
+            Intent intent = new Intent(this, Introduction.class);
             startActivity(intent);
-        }
-        else  if (itemSelected==1){
-            Intent intent= new Intent(this,QuranDua.class);
+        } else if (itemSelected == 1) {
+            Intent intent = new Intent(this, QuranDua.class);
             startActivity(intent);
-        }
-        else{
-            Intent intent= new Intent(this,HadithDua.class);
+        } else if (itemSelected == 2) {
+            Intent intent = new Intent(this, HadithDua.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(this, SettngsMainPage.class);
             startActivity(intent);
         }
     }
-
 
 
 }

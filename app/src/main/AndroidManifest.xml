@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".QuranDua" />
         <activity android:name=".HadithDua" />
-        <activity android:name=".Introduction"></activity>
+        <activity android:name=".Introduction" />
+        <activity android:name=".SettngsMainPage"></activity>
     </application>
 
 </manifest>

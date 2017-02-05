@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Dua Quran and Hadith</string>
+
+    <string name="PREF_FILE_SETTINGS">PREF_FILE_SETTINGS</string>
+
+    <string name="PREF_toViewBoth">toViewBoth</string>
+    <string name="PREF_toViewArabic">toViewArabic</string>
+    <string name="PREF_toViewTamil">toViewTamil</string>
+
+    <string name="PREF_Font_Size_Tamil">PREF_Font_Size_Tamil</string>
+    <string name="PREF_Font_Size_Arabic">PREF_Font_Size_Arabic</string>
+
 </resources>

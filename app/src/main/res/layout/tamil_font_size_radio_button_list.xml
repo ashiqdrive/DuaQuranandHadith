@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/size20"
+        android:text="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+    <RadioButton
+        android:id="@+id/size22"
+        android:text="22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size20"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+    <RadioButton
+        android:id="@+id/size24"
+        android:text="22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size22"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+    <RadioButton
+        android:id="@+id/size26"
+        android:text="22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size24"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+    <RadioButton
+        android:id="@+id/size28"
+        android:text="22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size26"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+    <RadioButton
+        android:id="@+id/size30"
+        android:text="22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size28"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+
+
+</LinearLayout>
